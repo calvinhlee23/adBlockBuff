@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "adBlockBuff",
+  "version": "1.0",
+
+  "default_locale": "en",
+  "description": "blocks annoying advertisements",
+
+  "browser_action": {
+    "default_popup": "hello.html"
+  },
+
+
+  "background": {
+    "scripts": ["block.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "tabs",
+    "background",
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/",
+    "https://*/"
+  ]
+}
