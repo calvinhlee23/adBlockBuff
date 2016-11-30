@@ -1,7 +1,7 @@
 
 ![logo]
 [logo]: ./image/logo.png
-# adBlockBuff
+# AdBlockBuff
 
 adblockBuff is a customizable Google Chrome extension that block online advertisements.
 
